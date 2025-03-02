@@ -1,0 +1,34 @@
+{
+  "name": "cal8bitai",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --dist-dir dev-dist",
+    "build": "parcel build src/index.html --dist-dir prod-dist --no-cache --no-source-maps",
+    "dev": "parcel src/index.html --dist-dir dev-dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@huggingface/inference": "^3.1.1",
+    "bootstrap": "^5.3.3",
+    "firebase": "^11.1.0",
+    "flatpickr": "^4.6.13",
+    "groq-sdk": "^0.12.0",
+    "parcel": "^2.13.2",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
+    "verbal-expressions": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "typescript": "^5.7.2"
+  }
+}

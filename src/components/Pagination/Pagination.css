@@ -1,0 +1,23 @@
+
+.pagination-btn{
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+.pagination-btn button{
+    font-size: 18px;
+    border-radius: 8px;
+}
+.active-page{
+    background-color: #292929;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 18x;
+    margin: 0;
+}

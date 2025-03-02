@@ -1,0 +1,19 @@
+  
+  .toggle-button.enable {
+    background-color: green;
+  }
+  
+  .toggle-button.disable {
+    background-color: red;
+  }
+
+    .toggle-button {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        transition: background-color 0.3s ease;
+      }
+  

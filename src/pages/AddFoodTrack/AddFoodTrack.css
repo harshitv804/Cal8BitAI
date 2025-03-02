@@ -1,0 +1,72 @@
+.toggle-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+.evening-item-container, .morning-item-container, .afternoon-item-container{
+padding: 15px;
+background-color: lightgray;
+border-radius: 10px;
+border: solid 2px;
+width: 1000px;
+}
+
+.evening-item-container, .afternoon-item-container{
+margin-top: 20px;
+    }
+
+.evening-item-container-header, .morning-item-container-header,.afternoon-item-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.morning-item-container-header h3, .afternoon-item-container-header h3{
+    margin: 0;
+}
+
+.addfoodtrack-footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 0px;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+}
+
+.addfoodtrack-footer button {
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.add-food-track-container{
+    justify-items: center;
+}
+
+.add-food-track-footer-buttons{
+    text-align: center;
+align-content: center;
+font-weight: bold;
+font-size: 16px;
+background-color: lightgray;
+border-radius: 10px;
+border: solid 2px;
+padding: 15px;
+text-decoration: none;
+color: black;
+}
+
+@media screen and (max-width:769px){
+    .evening-item-container, .morning-item-container, .afternoon-item-container{
+        width: auto;
+        }
+    .addfoodtrack-footer{
+        gap: 10px;
+    }
+    .addfoodtrack-footer button{
+        padding: 5px 10px;
+    }
+}

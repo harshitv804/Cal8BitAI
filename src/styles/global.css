@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{font-family: "Pixelify Sans", serif;
+word-spacing: 5px;
+}
+.detailed-item-container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.detailed-item-titles {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 160px 170px 140px 50px 50px 50px;
+    align-items: center;
+    margin-bottom: 10px;
+    min-width: 600px; 
+}
+
+.detailed-item {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    align-items: center;
+    margin-bottom: 10px;
+    min-width: 600px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.detailed-item-textarea {
+    width: 150px;
+    height: 80px;
+    resize: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.input-cal-pro {
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.input-qty {
+    height: 80px;
+    resize: none;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.add-button {
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.g-sign-in{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.ai-improve-button,
+.delete-button {
+    width: 50px;
+    padding: 10px 0px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .detailed-item-titles {
+        grid-template-columns: 125px 115px 70px 50px 50px 50px;
+        min-width: 400px; 
+    }
+    .detailed-item {
+        grid-template-columns: repeat(6, 1fr);
+        min-width: 400px;
+    }
+    .detailed-item-textarea,
+    .input-qty {
+        width: 120px;
+    }
+
+    .input-cal-pro {
+        width: 60px; 
+    }
+    .add-food-track-container{
+        justify-items: normal;
+        padding: 0px 10px;
+    }
+}
+
+.error-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}

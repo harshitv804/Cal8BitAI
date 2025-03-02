@@ -1,0 +1,28 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 1000px;
+  }
+  
+  .header-logout-btn{
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .header h3{
+    margin: 0;
+  }
+
+  @media screen and (max-width:769px){
+    .header{
+        width: 100%;
+        /* padding: auto; */
+        }
+}
